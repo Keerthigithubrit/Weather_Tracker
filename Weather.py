@@ -17,7 +17,7 @@ def get_current_weather():
     # pprint(weather_data)
 
     print(f"Current weather for {weather_data['name']}:")
-    print(f"The temperature is {weather_data['main']['temp']:.1f}celcius")
+    print(f"The temperature is {weather_data['main']['temp']:.1f} celcius")
     print(f"Wind Speed is {weather_data['wind']['speed']:}")
 
 get_current_weather()
